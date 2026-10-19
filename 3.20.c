@@ -10,10 +10,6 @@ int main()
     {
         printf("Enter # of hours worked (-1 to end): ");
         scanf("%lf", &hours);
-        if (hours == -1) 
-        {
-            break;
-        }
         printf("Enter hourly rate of the worker ($00.00): ");
         scanf("%lf", &rate);
         if (hours <= 40) 
